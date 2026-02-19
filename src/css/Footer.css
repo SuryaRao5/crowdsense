@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  background: #48667a;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.footer-left span {
+  color: rgba(248, 209, 197, 0.7);
+}
+
+.powered-text {
+  color: #5dafb9;
+  font-weight: 500;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footer {
+    padding: 12px 15px;
+    gap: 10px;
+    text-align: center;
+  }
+}
